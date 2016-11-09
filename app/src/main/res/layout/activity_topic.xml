@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主题:"
+        android:textSize="30sp"
+        android:textColor="#00f"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/topic_lv"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/topic_et"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:hint="此处写主题"/>
+    <Button
+        android:id="@+id/topic_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="提交"/>
+
+</LinearLayout>
